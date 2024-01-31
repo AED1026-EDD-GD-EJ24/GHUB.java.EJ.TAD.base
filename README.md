@@ -11,12 +11,18 @@ Tu programa debería ejecutarse de la siguiente manera:
 ```
 *Rational*
 ======================
-Introduce el primer operando:12
-Introduce el segundo operando:4
-12+4=16
-12-4=8
-12*4=48
-12/4=3
+Introduce el numerador   del Racional a: 7
+Introduce el denominador del Racional a: 5
+Introduce el numerador   del Racional b: 2
+Introduce el denominador del Racional b: 3
+
+Racional a = 7/5
+Racional b = 2/3
+
+7/5 + 2/3 =a/b
+7/5 * 2/3 =a/b
+7/5 = 2/3 = falso
+
 ```
 
 
