@@ -1,8 +1,8 @@
-# Proyecto - Calculadora aritmética Simple
+# Proyecto - Tipos Abstractos de Dato
 
 ## Descripción del Problema
 
-Este ejercicio implementa una calculadora aritmética simple (suma, resta, multiplica, divide).
+Este ejercicio implementa el TAD Rational
 
 ## Ejecución
 
@@ -27,13 +27,13 @@ Introduce el segundo operando:4
 title: Calculadora
 ---
 classDiagram
-      class Calculadora
-      Calculadora: -x
-      Calculadora: -y
-      Calculadora: +suma()
-      Calculadora: +resta()
-      Calculadora: +multiplica()
-      Calculadora: +divide()
+      class Rational
+      Rational: -a
+      Rational: -b
+      Calculadora: +makeRational()
+      Calculadora: +add()
+      Calculadora: +mult()
+      Calculadora: +equal()
 ```
 [Referencia-Mermaid](https://mermaid.js.org/syntax/classDiagram.html)
 
