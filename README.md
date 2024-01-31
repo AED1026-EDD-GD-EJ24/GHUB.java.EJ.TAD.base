@@ -9,7 +9,7 @@ Este ejercicio implementa el TAD Rational
 Tu programa debería ejecutarse de la siguiente manera:
 
 ```
-* Rational *
+*Rational*
 ======================
 Introduce el primer operando:12
 Introduce el segundo operando:4
@@ -24,16 +24,16 @@ Introduce el segundo operando:4
 [Editor en línea](https://mermaid.live/)
 ```mermaid
 ---
-title: Calculadora
+title: Rational
 ---
 classDiagram
       class Rational
       Rational: -a
       Rational: -b
-      Calculadora: +makeRational()
-      Calculadora: +add()
-      Calculadora: +mult()
-      Calculadora: +equal()
+      Rational: +makeRational()
+      Rational: +add()
+      Rational: +mult()
+      Rational: +equal()
 ```
 [Referencia-Mermaid](https://mermaid.js.org/syntax/classDiagram.html)
 
