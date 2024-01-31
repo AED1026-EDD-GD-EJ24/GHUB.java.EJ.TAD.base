@@ -5,24 +5,42 @@ import java.util.Scanner;
 public class Principal {
     
     public static void main(String[] args) {
-        Calculadora c = new Calculadora();
-        int x,y;
+        Rational r1 = new Rational();
+        int a,b;
 
         Scanner consola = new Scanner(System.in);
 
-        System.out.println("Calculadora aritmetica");
-        System.out.println("======================");
+        System.out.println("Operaciones con Números Racionales");
+        System.out.println("==================================");
 
-        System.out.print("Introduce el primer operando:");
-        x = consola.nextInt();
+        System.out.print("Introduce el numerador del Racional 1:");
+        a = consola.nextInt();
         
-        System.out.print("Introduce el segundo operando:");
-        y = consola.nextInt();
+        System.out.print("Introduce el denominado del Racional 2:");
+        b = consola.nextInt();
 
-        System.out.println(x+"+"+y+"="+c.suma(x, y));
-        System.out.println(x+"-"+y+"="+c.resta(x, y));
-        System.out.println(x+"*"+y+"="+c.multiplica(x, y));
-        System.out.println(x+"/"+y+"="+c.divide(x, y));
+        r1=new Rational(a,b);
+
+
+        System.out.println(r1);
+
+        
+
+        System.out.print("Introduce el numerador del Racional 2:");
+        a = consola.nextInt();
+        
+        System.out.print("Introduce el denominado del Racional 2:");
+        b = consola.nextInt();
+
+        Rational r2 = new Rational(a,b);
+
+
+        System.out.println(r2);
+       
+
+        System.out.println("Suma = "+r1.toString()+"+"+r2.toString()+"="+r1.add(r1,r2));
+        System.out.println("Multiplica = "+r1.toString()+"*"+r2.toString()+"="+r1.mult(r1,r2));
+        System.out.println("¿Son Iguales? ="+r1+"== "+r2+r1.equal(r1,r2));
 
         consola.close();
     }

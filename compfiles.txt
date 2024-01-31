@@ -1,3 +1,3 @@
-./miPrincipal/Calculadora.java
 ./miPrincipal/Principal.java
+./miPrincipal/Rational.java
 ./miTest/AppTest.java
