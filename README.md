@@ -1,4 +1,4 @@
-# Proyecto - Tipos Abstractos de Dato
+# Proyecto - Tipos Abstractos de Datos
 
 ## Descripción del Problema
 
@@ -9,7 +9,7 @@ Este ejercicio implementa el TAD Rational
 Tu programa debería ejecutarse de la siguiente manera:
 
 ```
-Calculadora aritmetica
+* Rational *
 ======================
 Introduce el primer operando:12
 Introduce el segundo operando:4
