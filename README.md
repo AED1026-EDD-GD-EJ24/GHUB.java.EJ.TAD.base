@@ -19,9 +19,9 @@ Introduce el denominador del Racional b: 3
 Racional a = 7/5
 Racional b = 2/3
 
-7/5 + 2/3 =a/b
-7/5 * 2/3 =a/b
-7/5 = 2/3 = falso
+7/5 + 2/3 =31/15
+7/5 * 2/3 =14/15
+2/5 = 4/10 = True
 
 ```
 

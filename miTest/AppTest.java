@@ -10,31 +10,39 @@ import org.junit.jupiter.api.BeforeAll;
 class AppTest {
     
     static Rational r;
-    static Rational a= new Rational(7,5);
-    static Rational b =new Rational(2,3);
-    static Rational c = new Rational(31,15);
+    static Rational a;
+    static Rational b;
 
-    /* 
     @BeforeAll public static void setUp() {
-        c = new Calculadora();
+        r = new Rational();
     }
-    */
-
+    
     @Test public void testAdd() {
-        assertTrue(r.add(a,b)==c);
-    }
-    /* 
+        a = new Rational(7,5);
+        b = new Rational(2,3);
+        r=r.add(a,b);
 
-    @Test public void testResta() {
-        assertTrue(c.resta(4,2)==2);
+        assertTrue(r.getNumerador()==31);
+        assertTrue(r.getDenominador()==15);    
+       
+    }
+    
+
+    @Test public void testMult() {
+        a = new Rational(7,5);
+        b = new Rational(2,3);
+        r=r.mult(a,b);
+
+        assertTrue(r.getNumerador()==14);
+        assertTrue(r.getDenominador()==15);   
     }
 
-    @Test public void testMultiplica() {
-        assertTrue(c.multiplica(5,7)==35);
+    @Test public void testEqual() {
+        a = new Rational(2,5);
+        b = new Rational(4,10);
+
+        assertTrue(r.equal(a,b));
     }
 
-    @Test public void testDivide() {
-        assertTrue(c.divide(12,4)==3);
-    }
-    */
+    
 }

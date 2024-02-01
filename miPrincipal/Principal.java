@@ -16,7 +16,7 @@ public class Principal {
         System.out.print("Introduce el numerador del Racional 1:");
         a = consola.nextInt();
         
-        System.out.print("Introduce el denominado del Racional 2:");
+        System.out.print("Introduce el denominado del Racional 1:");
         b = consola.nextInt();
 
         r1=new Rational(a,b);
