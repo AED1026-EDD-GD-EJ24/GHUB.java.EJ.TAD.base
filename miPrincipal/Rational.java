@@ -8,7 +8,11 @@ public class Rational{
         r[1]=1;
     }
 
-    public Rational(int a,int b){
+    public Rational(int a,int b) throws PosicionIlegalException{
+        if (b<=0)
+        {
+            throw new PosicionIlegalException();
+        }
         r[0]=a;
         r[1]=b;
     }

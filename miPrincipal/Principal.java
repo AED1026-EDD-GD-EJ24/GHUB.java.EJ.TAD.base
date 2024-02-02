@@ -4,44 +4,37 @@ import java.util.Scanner;
 
 public class Principal {
     
-    public static void main(String[] args) {
-        Rational r1 = new Rational();
-        int a,b;
-
+    public static void main(String[] args) throws Exception {
         Scanner consola = new Scanner(System.in);
+        int opc =0;
+        do{
+            System.out.println("*************************");
+            System.out.println("TIPOS ABSTRACTOS DE DATOS");
+            System.out.println("*************************");
+            System.out.println("1) RATIONAL");
+            System.out.println("2) CONJUNTO");
+            System.out.println("            ");
+            System.out.println("0) SALIR");
+            System.out.print("Selecciona opción:");
+            opc=consola.nextInt();
 
-        System.out.println("Operaciones con Números Racionales");
-        System.out.println("==================================");
+            switch (opc){
+            case 1:
+               AppRational.menu();
+               break;
+            case 2:
+               AppConjunto.menu();
+               break;
 
-        System.out.print("Introduce el numerador del Racional 1:");
-        a = consola.nextInt();
-        
-        System.out.print("Introduce el denominado del Racional 1:");
-        b = consola.nextInt();
+            case 0:
+               System.out.println("ADIOS!");
+               consola.close();
 
-        r1=new Rational(a,b);
+            default:
 
-
-        System.out.println(r1);
-
-        
-
-        System.out.print("Introduce el numerador del Racional 2:");
-        a = consola.nextInt();
-        
-        System.out.print("Introduce el denominado del Racional 2:");
-        b = consola.nextInt();
-
-        Rational r2 = new Rational(a,b);
-
-
-        System.out.println(r2);
+        }
        
-
-        System.out.println("Suma = "+r1.toString()+"+"+r2.toString()+"="+r1.add(r1,r2));
-        System.out.println("Multiplica = "+r1.toString()+"*"+r2.toString()+"="+r1.mult(r1,r2));
-        System.out.println("¿Son Iguales? ="+r1+"== "+r2+r1.equal(r1,r2));
-
-        consola.close();
+    }while (opc != 0);
+		
     }
 }

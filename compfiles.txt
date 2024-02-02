@@ -1,3 +1,7 @@
+./miPrincipal/AppRational.java
 ./miPrincipal/Principal.java
+./miPrincipal/Conjunto.java
+./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/Rational.java
+./miPrincipal/AppConjunto.java
 ./miTest/AppTest.java

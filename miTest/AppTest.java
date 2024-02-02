@@ -17,7 +17,7 @@ class AppTest {
         r = new Rational();
     }
     
-    @Test public void testAdd() {
+    @Test public void testAdd() throws Exception {
         a = new Rational(7,5);
         b = new Rational(2,3);
         r=r.add(a,b);
@@ -28,7 +28,7 @@ class AppTest {
     }
     
 
-    @Test public void testMult() {
+    @Test public void testMult() throws Exception  {
         a = new Rational(7,5);
         b = new Rational(2,3);
         r=r.mult(a,b);
@@ -37,7 +37,7 @@ class AppTest {
         assertTrue(r.getDenominador()==15);   
     }
 
-    @Test public void testEqual() {
+    @Test public void testEqual() throws Exception {
         a = new Rational(2,5);
         b = new Rational(4,10);
 
