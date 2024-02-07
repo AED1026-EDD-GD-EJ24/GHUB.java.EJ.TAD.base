@@ -1,5 +1,5 @@
 package miPrincipal;
-import java.util.Scanner;
+
 public class AppConjunto{
     public static void  menu() throws Exception {
 		System.out.println("==================================");
