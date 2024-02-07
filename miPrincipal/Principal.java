@@ -31,32 +31,23 @@ public class Principal {
                AppRational.menu();
                break;
             case 2:
-               AppMatriz.menu();
-               break;
+              
             case 3:
-               AppConjunto.menu();
-               break;
+               
             case 4:
-               AppPersona.menu();
-               break;
+               
             case 5:
-               AppFecha.menu();
-               break;
+               
             case 6:
-               AppCadena.menu();
-               break;
+             
             case 7:
-               AppNumerote.menu();
-               break;
+               
             case 8:
-               AppCuenta_cheques.menu();
-               break;
+               
             case 9:
-               AppPunto.menu();
-               break;
+               
             case 10:
-               AppTriangulo.menu();
-               break;
+               
             case 0:
                System.out.println("ADIOS!");
                consola.close();

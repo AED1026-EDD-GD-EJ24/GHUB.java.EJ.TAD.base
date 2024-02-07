@@ -1,8 +1,7 @@
 package miPrincipal;
 public class PosicionIlegalException extends Exception{
-	public PosicionIlegalException() {
+
+    public PosicionIlegalException() {
 		super("posición ilegal");
 	}
-	
-
 }
