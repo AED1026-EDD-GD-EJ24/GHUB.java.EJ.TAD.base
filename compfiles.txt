@@ -1,5 +1,5 @@
+./miTest/AppTest.java
 ./miPrincipal/Principal.java
 ./miPrincipal/AppRational.java
 ./miPrincipal/Rational.java
 ./miPrincipal/PosicionIlegalException.java
-./miTest/AppTest.java
